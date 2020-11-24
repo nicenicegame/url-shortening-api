@@ -1,0 +1,84 @@
+/* ADVANCE */
+
+.advance {
+  min-height: 100vh;
+  background-color: var(--neutral-1);
+  padding-bottom: 8rem;
+}
+
+.advance-wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.advance-text {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  margin: 15rem 0 8rem 0;
+}
+
+.advance-text h1 {
+  padding: 15px 0;
+}
+
+.advance-box {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  width: 31%;
+  padding: 4.5rem 2rem 2rem 2rem;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  transform: translateY(-50%);
+  background-color: var(--primary-color-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.card h3 {
+  color: var(--neutral-4);
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+.brand {
+  align-self: flex-start;
+}
+
+.brand::before {
+  content: "";
+  background-color: var(--primary-color-1);
+  width: 40vw;
+  height: 10px;
+  top: 50%;
+  right: 0;
+  transform: translateX(100%) translateY(50%);
+  position: absolute;
+}
+
+.fully {
+  align-self: flex-end;
+}

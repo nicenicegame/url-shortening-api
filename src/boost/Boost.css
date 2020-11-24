@@ -1,0 +1,32 @@
+/* BOOST */
+
+.boost {
+  min-height: 35vh;
+  background-color: var(--primary-color-2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.boost-wrapper {
+  text-align: center;
+}
+
+.boost-wrapper h1 {
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.boost-wrapper button {
+  font-size: 20px;
+  padding: 15px 30px;
+}
+
+.boost-image {
+  position: absolute;
+  z-index: -1;
+}
