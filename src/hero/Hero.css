@@ -3,9 +3,7 @@
   min-height: 80vh;
   display: flex;
   align-items: center;
-  overflow: hidden;
-  padding-top: 3rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 .hero-wrapper {
@@ -43,9 +41,39 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .hero-working {
-  width: 100%;
-  transform: translateX(5%);
+  width: 120%;
+  transform: translateX(10%);
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    padding-bottom: 10rem;
+  }
+
+  .hero-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    order: 2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  .hero-image {
+    order: 1;
+    margin-bottom: 2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 48px;
+  }
 }

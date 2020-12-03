@@ -1,9 +1,11 @@
 import React from "react";
 import "./Advance.css";
+import Form from "./Form";
 
 const Advance = () => {
   return (
     <section className="advance">
+      <Form />
       <div className="advance-wrapper">
         <div className="advance-text">
           <h1>Advanced Statistics</h1>
@@ -12,6 +14,7 @@ const Advance = () => {
             our advanced statistics dashboard.
           </p>
         </div>
+
         <div className="advance-box">
           <div className="brand card">
             <div className="card-image">

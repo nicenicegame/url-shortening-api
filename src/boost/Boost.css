@@ -9,7 +9,6 @@
   justify-content: center;
   position: relative;
   z-index: 1;
-  overflow: hidden;
 }
 
 .boost-wrapper {
@@ -29,4 +28,6 @@
 .boost-image {
   position: absolute;
   z-index: -1;
+  height: 100%;
+  width: 100%;
 }

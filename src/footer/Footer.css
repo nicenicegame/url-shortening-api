@@ -1,32 +1,61 @@
-/* BOOST */
+/* FOOTER */
+.footer {
+  background-color: var(--neutral-4);
+  min-height: 40vh;
+  padding: 3rem 0;
+}
 
-.boost {
-  min-height: 35vh;
-  background-color: var(--primary-color-2);
+.footer-wrapper {
+  width: 80%;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
 }
 
-.boost-wrapper {
-  text-align: center;
+.logo {
+  flex: 4;
+  display: flex;
 }
 
-.boost-wrapper h1 {
+.logo h1 {
   color: white;
-  padding-bottom: 2rem;
 }
 
-.boost-wrapper button {
-  font-size: 20px;
-  padding: 15px 30px;
+.features {
+  flex: 2;
 }
 
-.boost-image {
-  position: absolute;
-  z-index: -1;
+.resources {
+  flex: 2;
+}
+
+.company {
+  flex: 2;
+}
+
+.contact {
+  flex: 2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.features h1,
+.resources h1,
+.company h1 {
+  color: white;
+  font-size: 16px;
+  padding-bottom: 1rem;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links a {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  color: var(--primary-color-1);
 }
